@@ -10,6 +10,19 @@ Is AI both overhyped and transformative? Large language models (LLMs) live at th
 
 In this repository, I've included some interesting references as well as text for a few avatars. We will add those that we develop here!
 
+# Awesome LLM articles
+
+- More sophisticated models lie more. Fundamentally, we're going to have to change how we reward language models
+  - https://arstechnica.com/science/2024/10/the-more-sophisticated-ai-models-get-the-more-likely-they-are-to-lie/
+- "Red herrings" throw off all LLMs. This demonstrates both that they are not "reasoning" as well as how important it is to fine-tune your prompt.
+  - https://arstechnica.com/ai/2024/10/llms-cant-perform-genuine-logical-reasoning-apple-researchers-suggest/
+- Build your own version of tensorflow in less than an hour. Skips over a bit of the math, but is super understandable
+  - https://www.youtube.com/watch?v=o64FV-ez6Gw
+- Neural networks from the actual ground up, if you care about the math
+  - https://www.youtube.com/watch?v=VMj-3S1tku0
+- My favorite article about prompt engineering. Talks about using CO-STAR to win an event
+  - https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41
+
 # Key points for prompt engineering
 
 We're going to focus on the generally available chatgpt. By using the API, you can inject prompts differently. You can also create custom GPTs. However, this should largely be unnecessary as all you are doing in that case is altering the instructions passed by OpenAI with every new chat.
@@ -25,7 +38,6 @@ We're going to focus on the generally available chatgpt. By using the API, you c
 - Format with ### Instruction ###
   - This can be thought of intuitively-- it's similar to the markdown format I'm using in this document
 - CO-STAR (context, objective, style, tone, audience, response)
-  - Developed by GovTech of Singapore, with a great story here: https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41
   - Context: Provides background information on the task to help the model understand the scenario, ensuring the response is relevant.
   - Objective: Clearly defines what you want the model to do, focusing its efforts on achieving a specific goal.
   - Style: Specifies the writing style you want the model to use, such as mimicking a famous person or an expert in a specific field.
