@@ -6,6 +6,8 @@ Hey ProductTank Pittsburgh!
 
 Is AI both overhyped and transformative? Large language models (LLMs) live at the boundary of amazing and disappointing. Sometimes they hallucinate while other times they summarize walls of text into crisp bullet points.
 
+Please reach out to us at iii! Our contact info is available on the iii website: https://www.cmu.edu/iii/people/faculty-staff/index.html
+
 # Repository
 
 In this repository, I've included some interesting references as well as text for a few avatars. We will add those that we develop here!
